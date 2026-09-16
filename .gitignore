@@ -1,0 +1,7 @@
+node_modules
+dist
+/assets
+.DS_Store
+*.local
+npm-debug.log*
+pnpm-debug.log*

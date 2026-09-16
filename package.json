@@ -1,0 +1,22 @@
+{
+  "name": "muhammad-anas-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Premium creative portfolio for Muhammad Anas — Motion Graphic Designer / Video Editor",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sweetalert2": "^11.14.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.3.5"
+  }
+}
