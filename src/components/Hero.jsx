@@ -97,8 +97,8 @@ export default function Hero() {
               <img
                 src="/assets/images/portrait.jpg"
                 alt="Portrait of Muhammad Anas, Motion Graphic Designer and Video Editor"
-                width="840"
-                height="966"
+                width="853"
+                height="1280"
                 fetchpriority="high"
               />
             </div>

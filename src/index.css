@@ -436,13 +436,22 @@ section {
   width: 44px;
   height: 44px;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 12px;
+  background: var(--bg-warm);
+  border: 1.5px solid var(--line);
+  color: var(--ink);
+  box-shadow: 0 4px 14px -6px rgba(11, 29, 51, 0.25);
+  z-index: 1001;
+}
+
+.hamburger:hover {
+  border-color: var(--gold);
 }
 
 .hamburger .bar {
-  width: 24px;
-  height: 2px;
-  background: currentColor;
+  width: 22px;
+  height: 2.5px;
+  background: var(--ink);
   border-radius: 2px;
   transition: transform 0.4s var(--ease-out), opacity 0.3s;
 }
@@ -918,7 +927,8 @@ section {
 
 .hero-portrait-frame img {
   width: 100%;
-  aspect-ratio: 4 / 4.6;
+  height: auto;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   object-position: top center;
   border-radius: calc(var(--radius-lg) - 10px);
@@ -1273,7 +1283,8 @@ section {
 
 .about-visual img {
   width: 100%;
-  aspect-ratio: 4 / 4.4;
+  height: auto;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   object-position: top center;
 }
@@ -1553,9 +1564,9 @@ section {
 }
 
 .showreel-inner video {
+  display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  height: auto;
   background: #000;
 }
 
@@ -2390,6 +2401,15 @@ section {
    Responsive
    ========================================================= */
 @media (max-width: 1080px) {
+  .navbar {
+    background: rgba(250, 247, 241, 0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .navbar.scrolled {
+    background: rgba(255, 255, 255, 0.94);
+  }
   .nav-links,
   .nav-cta {
     display: none;
@@ -2463,7 +2483,7 @@ section {
     margin-bottom: 24px;
   }
   .hero-portrait-frame img {
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 2 / 3;
   }
   .hero-rotating {
     width: 92px;

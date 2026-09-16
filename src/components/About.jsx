@@ -36,8 +36,8 @@ export default function About() {
                 src="/assets/images/portrait.jpg"
                 alt="Muhammad Anas on set — motion graphic designer at work"
                 loading="lazy"
-                width="800"
-                height="880"
+                width="853"
+                height="1280"
               />
             </div>
             <div className="about-float-badge">
