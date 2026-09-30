@@ -1,5 +1,6 @@
 import Swal from 'sweetalert2'
 import { portfolio, whatsappUrl } from '../data/portfolioData'
+import { swalDark } from '../lib/swal'
 import {
   ArrowRightIcon,
   DownloadIcon,
@@ -22,7 +23,7 @@ const downloadCV = () => {
     title: 'CV download started!',
     text: 'Thanks for your interest in Muhammad\u2019s work.',
     icon: 'success',
-    confirmButtonColor: '#0B1D33'
+    ...swalDark
   })
 }
 
@@ -30,19 +31,19 @@ export default function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-grid-bg" aria-hidden="true" />
-      <div className="blob blob-navy" aria-hidden="true" />
+      <div className="blob blob-violet" aria-hidden="true" />
       <div className="blob blob-gold" aria-hidden="true" />
 
       <div className="float-shape" aria-hidden="true" style={{ top: '18%', left: '4%' }}>
         <SparkIcon size={18} />
       </div>
       <div className="float-shape" aria-hidden="true" style={{ bottom: '16%', left: '8%', animationDelay: '1.4s' }}>
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C1915A" strokeWidth="2">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D2A26B" strokeWidth="2">
           <rect x="9" y="9" width="6" height="6" transform="rotate(45 12 12)" />
         </svg>
       </div>
       <div className="float-shape" aria-hidden="true" style={{ top: '12%', right: '38%', animationDelay: '2.2s' }}>
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#12294a" strokeWidth="2" opacity="0.5">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3a3a52" strokeWidth="2" opacity="0.7">
           <circle cx="12" cy="12" r="9" />
         </svg>
       </div>
@@ -109,7 +110,7 @@ export default function Hero() {
                   <defs>
                     <path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0" />
                   </defs>
-                  <text fill="#12294a" fontSize="9.5" letterSpacing="2.5" fontFamily="Space Grotesk, sans-serif" fontWeight="600">
+                  <text fill="#D2A26B" fontSize="9.5" letterSpacing="2.5" fontFamily="Space Grotesk, sans-serif" fontWeight="600">
                     <textPath href="#circ">SHOWREEL • MOTION GRAPHICS •</textPath>
                   </text>
                 </svg>

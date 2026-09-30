@@ -12,11 +12,11 @@ export default function Experience() {
               Professional <em>Journey</em>
             </h2>
             <p className="section-sub">
-              5+ years crafting motion for agencies and studios across Karachi.
+              5+ years crafting motion for agencies, studios and education programs.
             </p>
           </div>
           <span className="section-number" style={{ color: 'rgba(255,255,255,0.4)' }}>
-            ( 2019 — Present )
+            ( 2019 — 2026 )
           </span>
         </div>
 

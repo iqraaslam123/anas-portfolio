@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Swal from 'sweetalert2'
 import { portfolio, whatsappUrl } from '../data/portfolioData'
+import { swalDark } from '../lib/swal'
 import {
   WhatsappIcon,
   MailIcon,
@@ -27,7 +28,7 @@ export default function Contact() {
       Swal.fire({
         title: 'Please add your name',
         icon: 'warning',
-        confirmButtonColor: '#0B1D33'
+        ...swalDark
       })
       return
     }
@@ -35,7 +36,7 @@ export default function Contact() {
       Swal.fire({
         title: 'Please enter a valid email address',
         icon: 'warning',
-        confirmButtonColor: '#0B1D33'
+        ...swalDark
       })
       return
     }
@@ -44,7 +45,7 @@ export default function Contact() {
         title: 'Message is too short',
         text: 'Please write at least 10 characters so Muhammad can help you.',
         icon: 'warning',
-        confirmButtonColor: '#0B1D33'
+        ...swalDark
       })
       return
     }
@@ -52,7 +53,7 @@ export default function Contact() {
       title: 'Message Sent!',
       text: 'Thank you for reaching out. Muhammad Anas will get back to you soon.',
       icon: 'success',
-      confirmButtonColor: '#0B1D33'
+      ...swalDark
     })
     setForm({ name: '', email: '', message: '' })
   }

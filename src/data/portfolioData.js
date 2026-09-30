@@ -57,15 +57,16 @@ export const portfolio = {
       company: 'Digital Gravity',
       location: 'Karachi, Pakistan',
       role: 'Motion Graphics Designer',
-      period: 'July 2025 – Present',
+      period: 'July 2025 – January 2026',
       start: 'July 2025',
-      end: 'Present',
-      description: 'Delivered high-impact motion graphics for UAE Swat Challenge & Novaheim Real Estate, significantly improving brand presence.',
+      end: 'January 2026',
+      description:
+        'Produced teacher training videos for The Citizens Foundation (TCF), owning animation, editing and post-production from script to delivery.',
       responsibilities: [
-        'Developed motion graphics for commercial ads, social media campaigns, and corporate branding',
-        'Collaborated with creative and marketing teams to translate ideas into dynamic visuals',
-        'Optimized animation workflows to meet tight deadlines without compromising quality',
-        'Worked on 3D animation integration with After Effects and Cinema 4D for premium clients'
+        'Produced teacher training videos with full ownership of animation, editing, and post-production',
+        'Converted complex teaching methodologies into simple, engaging animated visuals',
+        'Collaborated with the training and academic teams to align content with TCF\u2019s educational standards',
+        'Supported teacher development initiatives that improve classroom quality across TCF schools'
       ],
       stack: ['After Effects', 'Premiere Pro', 'Cinema 4D']
     },
