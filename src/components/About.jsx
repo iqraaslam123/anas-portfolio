@@ -33,11 +33,11 @@ export default function About() {
             <div className="about-frame-line" aria-hidden="true" />
             <div className="card">
               <img
-                src="/assets/images/portrait.jpg"
+                src="/assets/images/portrait.jpg?v=2"
                 alt="Muhammad Anas on set — motion graphic designer at work"
                 loading="lazy"
-                width="853"
-                height="1280"
+                width="707"
+                height="1600"
               />
             </div>
             <div className="about-float-badge">

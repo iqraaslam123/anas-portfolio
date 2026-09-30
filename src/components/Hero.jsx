@@ -96,10 +96,10 @@ export default function Hero() {
 
             <div className="hero-portrait-frame">
               <img
-                src="/assets/images/portrait.jpg"
+                src="/assets/images/portrait.jpg?v=2"
                 alt="Portrait of Muhammad Anas, Motion Graphic Designer and Video Editor"
-                width="853"
-                height="1280"
+                width="707"
+                height="1600"
                 fetchpriority="high"
               />
             </div>
