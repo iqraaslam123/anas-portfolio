@@ -26,7 +26,7 @@ export const portfolio = {
     linkedin: { label: 'LinkedIn', url: 'https://www.linkedin.com/in/anas997', handle: 'in/anas997' }
   },
 
-  summary: 'Creative and detail-oriented Motion Graphic Designer with 5+ years of professional experience in animation and video editing. Specializes in producing corporate videos, brand campaigns, and interactive educational content. Passionate about visual storytelling and eager to contribute to high-performing creative teams in advertising, media, and entertainment.',
+  summary: 'Motion Graphic Designer with 5+ years in animation and video editing — corporate videos, brand campaigns and interactive educational content, told through clear visual storytelling.',
 
   heroIntro: 'I craft cinematic motion graphics, animation and video edits that make brands move — from corporate films and brand campaigns to interactive educational content.',
 
@@ -38,10 +38,10 @@ export const portfolio = {
   ],
 
   about: {
-    lead: 'Creative and detail-oriented Motion Graphic Designer with 5+ years of professional experience in animation and video editing.',
+    lead: 'Motion Graphic Designer with 5+ years of professional experience in animation and video editing.',
     paragraphs: [
-      'Specializing in producing corporate videos, brand campaigns, and interactive educational content, Muhammad blends strong visual storytelling with disciplined production craft.',
-      'Passionate about visual storytelling and eager to contribute to high-performing creative teams in advertising, media, and entertainment.'
+      'I build corporate videos, brand campaigns and interactive educational content — turning complex ideas into simple, engaging animated visuals.',
+      'Driven by visual storytelling, and always ready to create with high-performing creative teams in advertising, media and entertainment.'
     ],
     highlights: [
       'Motion Graphics & Animation',
@@ -182,8 +182,8 @@ export const portfolio = {
   nav: [
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
-    { label: 'Experience', href: '#experience' },
     { label: 'Showreel', href: '#showreel' },
+    { label: 'Experience', href: '#experience' },
     { label: 'Achievements', href: '#achievements' },
     { label: 'Skills', href: '#skills' },
     { label: 'Education', href: '#education' },

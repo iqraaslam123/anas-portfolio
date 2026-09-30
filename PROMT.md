@@ -53,7 +53,7 @@ Location:
 Karachi, Pakistan
 
 Professional Summary:
-Creative and detail-oriented Motion Graphic Designer with 5+ years of professional experience in animation and video editing. Specializes in producing corporate videos, brand campaigns, and interactive educational content. Passionate about visual storytelling and eager to contribute to high-performing creative teams in advertising, media, and entertainment.
+Motion Graphic Designer with 5+ years in animation and video editing — corporate videos, brand campaigns and interactive educational content, told through clear visual storytelling.
 
 ==================================================
 DESIGN DIRECTION
@@ -200,16 +200,16 @@ Use EXACTLY these roles from the CV:
 
 1. Digital Gravity – Karachi, Pakistan
 Motion Graphics Designer
-July 2025 – Present
+July 2025 – January 2026
 
 Description:
-Delivered high-impact motion graphics for UAE Swat Challenge & Novaheim Real Estate, significantly improving brand presence.
+Produced teacher training videos for The Citizens Foundation (TCF), owning animation, editing and post-production from script to delivery.
 
 Responsibilities:
-- Developed motion graphics for commercial ads, social media campaigns, and corporate branding
-- Collaborated with creative and marketing teams to translate ideas into dynamic visuals
-- Optimized animation workflows to meet tight deadlines without compromising quality
-- Worked on 3D animation integration with After Effects and Cinema 4D for premium clients
+- Produced teacher training videos with full ownership of animation, editing, and post-production
+- Converted complex teaching methodologies into simple, engaging animated visuals
+- Collaborated with the training and academic teams to align content with TCF's educational standards
+- Supported teacher development initiatives that improve classroom quality across TCF schools
 
 --------------------------------------------------
 
@@ -598,8 +598,8 @@ Navigation:
 
 Home
 About
-Experience
 Showreel
+Experience
 Achievements
 Skills
 Education
