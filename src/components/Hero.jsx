@@ -32,13 +32,13 @@ export default function Hero() {
     <section className="hero" id="home">
       <div className="hero-grid-bg" aria-hidden="true" />
       <div className="blob blob-violet" aria-hidden="true" />
-      <div className="blob blob-gold" aria-hidden="true" />
+      <div className="blob blob-accent" aria-hidden="true" />
 
       <div className="float-shape" aria-hidden="true" style={{ top: '18%', left: '4%' }}>
         <SparkIcon size={18} />
       </div>
       <div className="float-shape" aria-hidden="true" style={{ bottom: '16%', left: '8%', animationDelay: '1.4s' }}>
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D2A26B" strokeWidth="2">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C084FC" strokeWidth="2">
           <rect x="9" y="9" width="6" height="6" transform="rotate(45 12 12)" />
         </svg>
       </div>
@@ -69,7 +69,7 @@ export default function Hero() {
               <button type="button" className="btn btn-outline" onClick={downloadCV}>
                 <DownloadIcon size={16} /> Download CV
               </button>
-              <a href="#contact" className="btn btn-gold">
+              <a href="#contact" className="btn btn-accent">
                 Contact Me
               </a>
             </div>
@@ -110,7 +110,7 @@ export default function Hero() {
                   <defs>
                     <path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0" />
                   </defs>
-                  <text fill="#D2A26B" fontSize="9.5" letterSpacing="2.5" fontFamily="Space Grotesk, sans-serif" fontWeight="600">
+                  <text fill="#C084FC" fontSize="9.5" letterSpacing="2.5" fontFamily="Space Grotesk, sans-serif" fontWeight="600">
                     <textPath href="#circ">SHOWREEL • MOTION GRAPHICS •</textPath>
                   </text>
                 </svg>

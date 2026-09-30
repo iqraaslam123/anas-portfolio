@@ -166,7 +166,7 @@ export default function Contact() {
                 />
               </div>
               <div className="form-footer">
-                <button type="submit" className="btn btn-gold">
+                <button type="submit" className="btn btn-accent">
                   Send Message <ArrowRightIcon size={16} />
                 </button>
                 <span className="form-note">
